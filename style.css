@@ -1,0 +1,257 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&display=swap");
+
+:root {
+  --cor01: #7b5ae7;
+  --cor02: #5b30e7;
+  --cor03: #4310e7;
+  --cor04: #3107b9;
+  --cor05: #26068c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Lora", serif;
+  background-color: var(--cor02);
+  width: 100%;
+}
+
+header {
+  background-color: var(--cor05);
+  color: rgba(245, 245, 245, 0.88);
+  text-align: center;
+  height: 150px;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.857);
+}
+
+header h1 {
+  padding: 15px;
+  font-size: 3em;
+}
+
+header h3 {
+  padding: 10px;
+  font-weight: 400;
+}
+
+header span:hover {
+  cursor: pointer;
+  color: rgb(218, 197, 6);
+}
+.conteudo {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  text-align: center;
+  background-color: var(--cor05);
+  margin: 25px 50px;
+  padding: 10px;
+  border-radius: 10px;
+  height: 100%;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.857);
+}
+
+section p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  font-style: italic;
+  padding: 10px 10px 10px 10px;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+}
+
+section p:hover {
+  transform: scale(1.1);
+}
+section.jan {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.jan img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.fev {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.fev img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.mar {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.mar img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.abr {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.abr img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.may {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.may img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.jun {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.jun img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.jul {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.jul img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.agt {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.agt img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.set {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.set img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.out {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.out img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.nov {
+  background-color: var(--cor02);
+  margin: 0px 0px 2px 0px;
+  padding: 10px;
+  border-radius: 10px;
+}
+.nov img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section.dec {
+  background-color: var(--cor02);
+  border-radius: 10px;
+  padding: 10px;
+}
+.dec img {
+  width: 300px;
+  height: 300px;
+  border-radius: 20px;
+}
+
+section img {
+  border: #26068c solid 2px;
+}
+
+section img:hover {
+  border: white solid 2px;
+  transition: 0.7s ease;
+}
+
+footer {
+  background-color: var(--cor05);
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.857);
+}
+
+footer p {
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+}
+
+footer img {
+  display: none;
+  width: 50px;
+  height: auto;
+  padding: 5px;
+}
+
+footer p:hover {
+  color: rgb(218, 197, 6);
+  font-weight: bolder;
+}
+
+footer:hover img {
+  animation-delay: 0.7s;
+  display: block;
+}
